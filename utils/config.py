@@ -37,3 +37,11 @@ class Config:
         return data_path
     
     
+    @staticmethod
+    def store_model():
+        try:
+            model_path = Config.CONFIG_PARSER.get('model', 'model_path')
+        except Exception:
+            model_path = os.path.join(Config.get_workspace_folder(), 'model')
+        os.makedirs(model_path, exist_ok=True)
+        return model_path

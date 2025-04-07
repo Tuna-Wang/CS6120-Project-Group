@@ -11,7 +11,7 @@ from utils.config import Config
 from utils.const import InputDataTitles
 
 from data_parser.worker import Worker as DataParserWorker
-
+from DB_creator.worker import Worker as DBWorker
 if __name__ == '__main__':
      # Prepare logging
     config = {'debug_logfile': os.path.join(Config.get_log_folder(), 'main.log')}
@@ -20,9 +20,8 @@ if __name__ == '__main__':
 
     # Extract data from PDF
     data_parser = DataParserWorker(logger)
-    if not data_parser.extract_data_from_pdf():
-        logger.error('Error while extracting data from PDF')
-        exit(1)
-    
-    # Parse data
-    data = data_parser.parse_data()
+    df = data_parser.parse_data()
+
+    # Create vector database
+    db_worker = DBWorker(logger, df)
+    db_worker.create_vector_db()
