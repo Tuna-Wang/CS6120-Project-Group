@@ -36,7 +36,6 @@ class Config:
             return ''
         return data_path
     
-    
     @staticmethod
     def store_model():
         try:
@@ -45,3 +44,11 @@ class Config:
             model_path = os.path.join(Config.get_workspace_folder(), 'model')
         os.makedirs(model_path, exist_ok=True)
         return model_path
+
+    @staticmethod
+    def get_personal_data():
+        try:
+            personal_data = Config.CONFIG_PARSER.get('data source', 'personal_data_path')
+        except Exception:
+            personal_data = ''
+        return personal_data

@@ -7,6 +7,7 @@ LOG_CONFIG_FILE = 'etc/log_config.ini'
 
 class InputDataTitles:
     TARGET_CHAR = 'Humphrey'
+    DEFAULT_CHARACTER = 'Humphrey'
     CHARACTER_B = 'Bernard'
     CHARACTER_J = 'Jim'
     CHARACTER_C = 'Clarie'
