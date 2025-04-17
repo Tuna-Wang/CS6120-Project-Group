@@ -255,3 +255,17 @@ body, html {
   font-size: 20px;
   color: #7c44ab;
 }
+
+.upload-section {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.upload-label {
+  font-size: 18px;
+  font-weight: 500;
+  color: #2c4f27;
+}

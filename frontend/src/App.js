@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
+import axios from 'axios';
 import './App.css';
 
 const mockData = {
@@ -15,6 +16,7 @@ const mockData = {
     humphreyStyle: "Ah, the question of whether humans need to work—how delightfully modern! Minister..."
   }
 };
+
 
 /** Utility to normalize user input for data lookup. */
 function normalizeQuestion(str) {
@@ -38,6 +40,36 @@ function App() {
 
   const handleQuestionChange = (event) => {
     setQuestion(event.target.value);
+  };
+
+  const handlePdfUpload = async (event) => {
+    const file = event.target.files[0];
+    if (!file || file.type !== "application/pdf") {
+      alert("Please upload a valid PDF file.");
+      return;
+    }
+  
+    try {
+      // Step 1: Request signed URL from backend
+      const res = await axios.post("http://localhost:8000/api/generate-upload-url", {
+        filename: file.name,
+      });
+  
+      const signedUrl = res.data.url;
+  
+      // Step 2: Upload file directly to GCS
+      await axios.put(signedUrl, file, {
+        headers: {
+          "Content-Type": "application/pdf",
+        },
+      });
+  
+      alert("✅ PDF uploaded successfully!");
+  
+    } catch (error) {
+      console.error("Upload failed:", error);
+      alert("❌ Upload failed. Please check the console.");
+    }
   };
 
   // Called when the user presses Enter (without Shift) or clicks send button.
@@ -134,6 +166,15 @@ function App() {
           <button className="clear-btn" onClick={clearChatHistory}>
             Clear Chat History
           </button>
+          <div className="upload-section">
+          <label htmlFor="pdf-upload" className="upload-label">Upload PDF</label>
+              <input
+                id="pdf-upload"
+                type="file"
+                accept="application/pdf"
+                onChange={handlePdfUpload}
+              />
+        </div>
         </div>
       </div>
 

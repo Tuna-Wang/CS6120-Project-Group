@@ -16,6 +16,9 @@ from DB_creator.worker import Worker as DBWorker
 from Imitation.personal_worker import Worker as ImitationWorker
 from Imitation.general_worker import Worker as ImitationWorkerCustomized
 
+from google.cloud import storage
+import datetime
+
 
 class APIService:
     def __init__(self):
@@ -157,9 +160,63 @@ async def imitate_style(request: Request):
     except Exception as e:
         api_service.logger.error(f"Error in imitation: {str(e)}")
         return {"error": str(e), "status": "error"}
+    
+
+class UploadRequest(BaseModel):
+    filename: str
+
+@app.post("/api/generate-upload-url")
+async def generate_upload_url(req: UploadRequest):
+    try:
+        bucket_name = "final-project-2025-bucket" 
+        storage_client = storage.Client()
+        bucket = storage_client.bucket(bucket_name)
+        blob = bucket.blob(req.filename)
+
+        url = blob.generate_signed_url(
+            version="v4",
+            expiration=datetime.timedelta(minutes=10),
+            method="PUT",
+            content_type="application/pdf" 
+        )
+
+        return {"url": url}
+
+    except Exception as e:
+        api_service.logger.error(f"Failed to generate signed URL: {e}")
+        return {"error": str(e), "status": "error"}
+
+
+@app.get("/api/files")
+async def download_all_files():
+    try:
+        bucket_name = "final-project-2025-bucket"
+        storage_client = storage.Client()
+        bucket = storage_client.bucket(bucket_name)
+
+        blobs = bucket.list_blobs()
+        download_dir = "./downloads"
+        os.makedirs(download_dir, exist_ok=True)
+
+        downloaded_files = []
+
+        for blob in blobs:
+            local_path = os.path.join(download_dir, blob.name)
+            os.makedirs(os.path.dirname(local_path), exist_ok=True)
+            blob.download_to_filename(local_path)
+            downloaded_files.append(local_path)
+
+        return {
+            "message": f"{len(downloaded_files)} file(s) downloaded.",
+            "files": downloaded_files
+        }
+
+    except Exception as e:
+        return {"error": str(e)}
 
 if __name__ == '__main__':
     import uvicorn
     # Run both the initialization and the API server
     api_service.initialize_pipeline()
     uvicorn.run(app, host="0.0.0.0", port=8000)
+
