@@ -6,10 +6,9 @@ sentence-transformers
 langchain-community
 langchain-text-splitters
 langchain-google-genai
-langchain-core 
+langchain-core
 pypdf
 faiss-cpu
-logging
-python-dotenv
-csv
-google-generativeai
+fastapi
+pydantic
+uvicorn
