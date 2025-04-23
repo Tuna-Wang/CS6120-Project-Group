@@ -8,8 +8,8 @@ const mockData = {
     humphreyStyle: "Ah, well, one must be cautious with such a simplistic question, Minister..."
   },
   "How can we achieve educational fairness?": {
-    chatGptStyle: "Educational fairness can be achieved through policies that ensure equal access...",
-    humphreyStyle: "Ah, yes, educational fairness—such an admirable goal, Minister, but one fraught with complexities..."
+    chatGptStyle: "Educational fairness can be achieved through policies that ensure equal access...Educational fairness can be achieved through policies that ensure equal access...Educational fairness can be achieved through policies that ensure equal access...Educational fairness can be achieved through policies that ensure equal access...",
+    humphreyStyle: "Ah, yes, educational fairness—such an admirable goal, Minister, but one fraught with complexities...Ah, yes, educational fairness—such an admirable goal, Minister, but one fraught with complexities...Ah, yes, educational fairness—such an admirable goal, Minister, but one fraught with complexities..."
   },
   "Do humans need to work?": {
     chatGptStyle: "Work is an essential part of human life, providing not only the means for survival...",
@@ -119,6 +119,7 @@ function App() {
         <div className="answer-bubble chatGpt-bubble">
           <span className="icon">🤖</span>
           <div>{entry.chatGptStyle}</div>
+          
         </div>
       );
     } else if (entry.selectedStyle === 'humphrey') {
@@ -191,7 +192,12 @@ function App() {
                 <div className="answers-group">
                   <div className="answer-bubble chatGpt-bubble">
                     <span className="icon">🤖</span>
+
                     <div>{entry.chatGptStyle}</div>
+                    {/* ←── 新增这行 */}
+                    <button onClick={() => alert('Citations!')}>
+                      See Citations
+                    </button>
                   </div>
                   {entry.humphreyStyle && (
                     <div className="answer-bubble humphrey-bubble">
