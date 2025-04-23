@@ -1,0 +1,603 @@
+order_index,speaker,text
+9,Bernard,"It's awful, isn't it?"
+10,Humphrey,"What is awful, Bernard?"
+11,Bernard,"Well, all these jobs going. Interest rates. Repossessions. Fear of inflation. Foreclosures."
+12,Humphrey,Oh yes. Terrible.
+13,Bernard,"You don't sound terribly worried, Sir Humphrey."
+14,Humphrey,"Bernard, I am not being sacked, repossessed, inflated or foreclosed. Neither are you."
+15,Bernard,Nor's the Prime Minister. But he's worried stiff.
+16,Humphrey,So he should be.
+17,Bernard,You don't sympathise with him?
+18,Humphrey,"That's the deal. That's how Prime Ministers' careers go. They get to be on the front page every day for years, which they love. They travel the long path from euphoric triumph to ignominious failure and then make way for the next saviour of the nation. It's called democracy."
+19,Bernard,It beats me why anyone would want to be Prime Minister.
+20,Humphrey,"It's the only top job that requires no previous experience, no training, no qualifications and limited intelligence."
+21,Bernard,"Sir Humphrey ... You do believe in democracy, don't you?"
+22,Humphrey,"Do I, Bernard? Actually no, not as most people understand it. Democracy should nor be about executing the will of the people. It should be the process whereby we secure the consent of the people to the policies of those qualified to decide on their behalf."
+23,Bernard,Like who?
+24,Humphrey,"Like us, Bernard."
+25,Bernard,"I believe in democracy, Sir Humphrey."
+26,Humphrey,"It does you credit. And if all the voters were as informed and intelligent as - say - me, or even you, it could possibly work. But that's hardly realistic."
+27,Bernard,"Well, obviously we have to stop the government making stupid mistakes. If I did everything the Prime Minister told me to do, I'd be fired within a week, and rightly so. But I am there to help him."
+28,Humphrey,"Bernard, we have a leadership crisis in this country. If the government can't or won't exercise it, it falls ro us, whether we want it or not."
+29,Bernard,I know. Power abhors a vacuum.
+31,Humphrey,"And we are currently led by one. We should exercise power because we have nothing to gain or lose personally: we have respectable salaries, honours, an office and a chauffeur ..."
+32,Bernard,I haven't got a chauffeur ...
+33,Humphrey,"You will, Bernard, when you grow up. We end up with an index-linked pension, a bank directorship, a couple of nicely remunerated quangos and a cottage in the Dordogne. So we can be entirely even-handed in our judgements and make them in the public interest."
+34,Bernard,"Well, things may not seem so bad soon, when we tell the Prime Minister about Kumranistan."
+36,Humphrey,Bernard! Do not mention the ECB co the Prime Minister. You know his views.
+37,Bernard,I know he's afraid that Brussels will take away most of his powers.
+38,Humphrey,"They already have. And so they should. All we need him to do is preside at tonight's dinner, pretend he's read the Kumranistan plan, and leave the rest to us."
+39,Jim,"Hacker, the Prime Minister; enters right. He is followed by a Driver carrying a pile of five Red Boxes."
+40,Jim,"Sorry I'am late, it's been a terrible day."
+41,Humphrey,Any particular reason?
+43,Jim,You've read about the Cabinet split?
+44,Humphrey,Yes.
+45,Jim,You've seen what's happened to the Footsie and the pound?
+47,Humphrey,Yes.
+48,Jim,So how many particular reasons do you want?
+49,Humphrey,Well ...
+50,Jim,And now this Lancaster House conference is turning into a catastrophe.
+51,Humphrey,"It was your idea to convene it, Prime Minister."
+52,Jim,"Humphrey, if you become President of Europe in the middle of the biggest financial crisis for a generation -"
+53,Bernard,"Um - with respect, Prime Minister, there is a President of the European Union and it's not you. What the UK Government currently has - not you personally - is the Presidency of the European Council."
+54,Jim,"He's President of the Union, I'm President of the Council."
+55,Humphrey,"No, Prime Minister, the President of the European Union itself is the Belgian Prime Minister ..."
+56,Jim,Who is completely unknown!
+57,Humphrey,"Well, obviously! He's Belgian."
+58,Jim,"And not elected. Appointed. In secret! Course, you wouldn't have a problem with that, would you, Humphrey?"
+59,Humphrey,"You do me an injustice. I am all in favour of elections. Provided the right people do the voting. But the difference, as far as you're concerned, is between being head of an empire of five hundred million people and chairing the Council of Ministers for six months."
+60,Jim,"Humphrey, we were talking about why I convened the conference on this dreadful recession. I had to do something."
+61,Humphrey,And the conference was something. So you did it! Well done.
+62,Jim,"But now it's falling apart, which might just finish me."
+63,Humphrey,"It may not be falling apart, Prime Minister."
+64,Jim,Haven't you been reading the conference reports?
+65,Humphrey,I have. Have you?
+66,Jim,"The spadework wasn't done properly. The Foreign Secretary and the Chancellor let me down badly. Instead of having everything nailed down before they all convened, they left it to chance. Useless! We only just won re-election and they're plotting to get rid of me already!"
+67,Bernard,'Forsan miseros meliora sequentur.'
+68,Jim,What?
+69,Bernard,"'For those in misery, perhaps better things will follow.'"
+70,Humphrey,"Well said, Bernard."
+71,Bernard,I didn't actually say that. That was Virgil.
+72,Humphrey,"I know chat, Bernard."
+73,Bernard,"At least I did say it, just now, but not originally."
+74,Humphrey,"Thank you, Bernard. We get the point."
+75,Jim,"It was completely predictable: the Krauts don't want a stimulus plan, they're terrified of runaway inflation, that's what destroyed the Weimar Republic and brought them Hitler. The Wops and the Dagoes are up to their armpits in debt already. The Frogs only want it if France gets aII the benefits ..."
+76,Bernard,"(interrupts) Prime Minister, I really think you should stop using these pejorative epithets to describe our allies, they might slip our in public sometime."
+77,Jim,"Quite right, Bernard. Thank you. And the Micks and the Polacks aren't getting the subsidies they were promised, which they regard as a betrayal. So it's time for me to get hands-on and give some leadership."
+78,Humphrey,Good.
+79,Jim,"So - tell me, what should I do?"
+80,Humphrey,That's just the kind of leadership we need.
+81,Jim,Thank you. Humphrey.
+82,Humphrey,"And we have good news for you, Prime Minister..."
+83,Bernard,Late last night we had a breakthrough at Lancaster House. A new player appeared on the scene.
+84,Jim,The Americans? Are they coming after all?
+85,Humphrey,"No, their position is immutable. They won't come to the conference because you wouldn't let them chair it."
+86,Jim,"I can't let them chair a European conference, Humphrey. Look at the map!"
+87,Humphrey,"It could become an international conference, if that would save the whole European financial system from melting down again."
+88,Jim,"Don't be silly, Humphrey. I'd lose face."
+89,Humphrey,"Oh yes, of course. Silly me."
+90,Bernard,"Prime Minister, Kumranistan has joined us."
+91,Jim,Has it? Good. (A beat.) Have I heard of them?
+92,Humphrey,They have oil. Massive new reserves have been found. They're offering a possible ten-trillion-dollar loan to Europe. Secured against future purchases.
+93,Jim,But - that could solve everything.
+94,Humphrey,Yes.
+95,Jim,Save the conference!
+96,Bernard,Yes.
+97,Jim,"Save Europe, in fact! (In his own world.) 'TRIUMPH FOR PRIME MINISTER!' 'VICTORY FOR RESIDENT OF EUROPE!'"
+98,Humphrey,With respect ...
+99,Jim,"(firmly) Victory for a President of Europe, Humphrey."
+100,Bernard,It might even save your job.
+101,Jim,My job's perfectly safe. Other people have survived with small majorities. Wilson had a majority of four in 1964. He lasted six years.
+102,Humphrey,"I was never awfully good sums but - um, four would be exactly double the size of your majority, am I right?"
+103,Jim,So?
+104,Humphrey,"He had to fight a second election pretty soon, to get a working majority."
+105,Bernard,And Wilson had hair.
+106,Jim,"(dangerously) What are you saying, Bernard?"
+107,Bernard,"Nothing. Only that... well, no Prime Minister or US President has been elected without a full head of hair since Eisenhower or Churchill in the 1950s. So I'm, um, saying that you did magnificently to win a majority of two."
+108,Jim,(bitterly) Thad hair when I was first elected. I lost my hair in the service of my country.
+109,Humphrey,The Kumranisran deal may solve your problems.
+110,Jim,Fine. Where do I sign?
+111,Humphrey,We're not quite there yet. They want something in exchange.
+112,Bernard,You know where Kumranistan is?
+113,Jim,"Yes. (A beat.) Well, sort of. You know, over there."
+114,Bernard,"It lies in Turkestan, north of Kazakstan, Uzbekistan, and Afghanistan. (Goes to a globe.) Here, in fact."
+115,Jim,As I said. Exactly.
+116,Humphrey,They had been planning to take their oil to Europe through the Soviet pipeline.
+117,Jim,"They're not Soviets any more, Humphrey. They haven't been Soviets for twenty years."
+118,Humphrey,"They still are in spirit, and always will be."
+119,Bernard,"The, um, Russians want a pretty huge payment -"
+120,Humphrey,"Which Kumranistan doesn't want to pay, since the Soviets will have their hands on the pipeline tap."
+121,Bernard,"So, with a little prompting from us: Plan B! A pipeline through Turkey, Greece and southern Europe, avoiding Russia altogether."
+122,Humphrey,What they need is European agreement. And that's what they're prepared to lend us ten trillion dollars for.
+123,Jim,Why?
+124,Humphrey,They want the guarantee of future oil purchases by everyone in the EU.
+125,Jim,(a beat) I don't get it.
+126,Humphrey,"It's awfully simple, Prime Minister. Kumranistan will lend Europe the money to buy Kumranistan's oil."
+127,Jim,And Europe borrows another ten trillion? More debt?
+128,Humphrey,"It's not a problem, it doesn't have to be repaid for years. We get the money now, interest free, and we repay it in the future when we buy the oil that we'll need anyway."
+129,Jim,So where do they make their money?
+130,Humphrey,We'll pay a premium on the oil. But that's not for many years.
+131,Jim,Are all the Europeans on board?
+132,Humphrey,"They are. And the problems are what we' ve been negotiating, as you will have seen in your Red Boxes."
+133,Jim,Yes. Um - remind me.
+134,Humphrey,"Well, as you'll doubtless remember, the Turks refused ro cooperate unless they were admitted to the European Community. I see their point. I've always had"
+136,Jim,"Johnny Turk? (Sniggers.) You're on first-name terms, then?"
+137,Humphrey,"(laughs mirthlessly) Very droll, Prime Minister. Turkey is an important ally, the only Muslim country with a secular democracy. We need -"
+138,Jim,"(interrupting) - Johnny Turk, yes."
+139,Bernard,"Germany, France and Italy were against the plan on principle."
+140,Jim,What changed their minds?
+141,Humphrey,A ten-trillion-dollar loan.
+142,Bernard,"That surprised me, Sir Humphrey. Surely, if a principle was involved ...?"
+143,Humphrey,"I think you'll find ten trillion dollars is a bit above the going rate for principles in the EU, Bernard."
+144,Jim,What was the principle?
+145,Humphrey,They don't like Muslims.
+146,Jim,Oh. Ah.
+147,Bernard,"Anyway, everything is agreed. Everyone gets a share in the construction."
+149,Bernard,"Here's the route. That helped, of course,"
+150,Jim,We're saved! But why didn't I know about all this?
+151,Humphrey,It's top secret.
+152,Jim,"Good God, Humphrey, I'm the Prime Minister!"
+153,Humphrey,"(soothing) I know, Prime Minister, and what an excellent Prime Minister you are! But it had to be kept under wraps. If it had leaked this week, money markets would have gone mad..."
+154,Jim,I' see. Well... is that everything I need to know?
+155,Bernard,There's one other thing.
+156,Humphrey,(warning) Bernard ...
+158,Bernard,A power group in Kumranistan still wants the Russian route.
+159,Humphrey,"Ah. (Relaxes.) Yes, Bernard's right, they don't want to upset the Soviets. It's understandable, they share a border. But the Kumranistani Foreign Secretary has come over here to put the deal to us if we want it."
+160,Jim,Invite him to dinner! Tonight!
+161,Bernard,"I did, Prime Minister."
+162,Humphrey,"(slowly, patiently) That's why we're here."
+163,Jim,And he can do the deal? Now?
+164,Humphrey,"He has the authority. But he needs careful handling, they're very sensitive about respect."
+165,Jim,"I know, those Middle-Eastern types... (Chuckles) So insecure, always so worried about losing face. (Catches himself) Though sometimes, of course, that's perfectly reasonable. But you get an awful lot of respect for ten trillion dollars. He can have all of mine, for a start."
+166,Humphrey,"Excellent, Prime Minister."
+168,Jim,Bernard.
+169,Bernard,"Yes, Prime Minister?"
+170,Jim,There's something you're not happy about. What is it?
+171,Bernard,Oh. Um ... um ... I'm not sure I can -
+172,Jim,"Spit it out, Bernard."
+173,Bernard,Um-'Timeo Danos et dona ferentes...'
+175,Bernard,"'I fear the Greeks, especially when they bring gifts.' ... Remember the Trojan Horse, Prime Minister."
+177,Jim,Clarie? you at Chequers yet?... Come to my study please... Now!
+181,Jim,Ah. Claire. There's something I don't know about this pipeline plan. What is it that Humphrey isn't telling me? Bernard was blathering about Trojan Horses.
+183,Jim,"I don't care about the mechanics, I'm not an engineer."
+185,Jim,Is that important?
+187,Jim,"We can't join the euro! It would be a catastrophe! Hand over control of interest rates? Control of exchange rates? Control of money supply? When I need to inflate to get re-elected, the ECB might deflate because of German price rises and I could get kicked out!"
+189,Jim,And then there's Greece! And Portugal! They could drag down our recovery!
+191,Jim,"(picks up phone) Bernard, tell Sir Humphrey that I want to see him ... No, any time within the next ten seconds will do."
+195,Jim,"Ah, Humphrey. About this loan ..."
+196,Humphrey,Prime Minister?
+197,Jim,"It is all good news, isn't it?"
+198,Humphrey,Tremendous news.
+199,Jim,"There's no hidden snags? You know. Terms and conditions, penalty clauses, rough guarantees?"
+200,Humphrey,Oh no. Nothing like that. Standard agreement.
+201,Jim,An ordinary Treasury loan? As far as we're concerned?
+202,Humphrey,(hesitates) In a sense. Yes.
+203,Jim,In a sense?
+204,Humphrey,In due course. Following agreed procedures. After certain formalities.
+205,Jim,But the money goes straight to the Treasury?
+206,Humphrey,"It goes to the Treasury, yes, of course."
+207,Jim,Straight to the Treasury?
+208,Humphrey,"Broadly speaking, yes. More or less."
+209,Jim,Broadly speaking? How would you describe it if you were ... narrowly speaking?
+212,Humphrey,"We get money, that's what matters."
+213,Jim,Let me put this another way. Will the loan be in euros?
+214,Humphrey,"Prime Minister, I urge you not to clutter your mind with procedural detail and monetary trivia."
+215,Jim,"Humphrey. In words of one syllable, is this plan dependent on our abandoning sterling and joining the euro?"
+216,Humphrey,"(chuckles) 'Dependent' has three syllables and 'abandoning' has four. (Checks his watch.) Seriously, Prime Minister, it's almost time for your dinner with the Foreign Minister of Kumranistan, you really mustn't be late."
+217,Jim,Answer my question.
+218,Humphrey,"All right, Prime Minister, you've asked a straight question and I'll give you a straight answer, which, however, clearly has to be considered in its proper context: in the course of all financial negotiations, certain provisos have to be preconditioned, various caveats have to be postulated, designated, investigated and specified and a number of considerations have to be determined, acknowledged and indeed sometimes conceded so that we are able to facilitate the finalisation of preliminary plans to create an epistemological basis for all parties to proceed towards a mutually beneficial consummation which will acknowledge and safeguard the viral interests of all the participants without jeopardising in any material way the underlying collective benefit ultimately accruing to the signatories or leaving unresolved such anomalies and irregularities that might precipitate operational uncertainties down the line, so that there will be a presumed modicum of ironclad reciprocity which in the great scheme of things will be to everybody's advantage."
+219,Jim,Did that mean yes or no?
+220,Humphrey,Don't you think yes and no are rather broad and unspecific in their application?
+221,Jim,No. Is joining the euro a condition of getting the loan?
+222,Humphrey,In the sense that ... if agreement is .. . at the end of the day ...
+223,Jim,Humphrey!
+224,Humphrey,"Yes, it is."
+225,Jim,You were going to hide this from me until it was too late!
+226,Humphrey,"No, but, yes, I mean, they all insisted ... the ECB insisted ... Prime Minister, it is the only way! You need this deal. I did it for you."
+227,Jim,For me?
+228,Humphrey,"Prime Minister, I'm trying to save you from yourself."
+229,Jim,"Humphrey, do you know what comes with joining the euro?"
+230,Humphrey,"The loan, European unity ..."
+231,Jim,"An austerity package. Disastrous interest rates, public expenditure cuts, more interference from Brussels in every damn thing. No ECB. No euro. Or no deal!"
+232,Humphrey,All the delegates have so many objections.
+233,Jim,Ten trillion dollars' worth of objections?
+235,Jim,As I thought. It would be the ultimate victory for Brussels. Britain becomes a mere outpost of the European empire.
+236,Humphrey,Of which you're a President.
+237,Jim,"Don't be silly, Humphrey, I just chair meetings for six months."
+238,Humphrey,If you would just take another look at the computer models ...
+239,Jim,No. Computer models got Britain into this whole financial mess.
+240,Humphrey,That's different. Nobody knew that those computer models in the City were being given faulty information. Everyone assumed the mortgages were worth their face value.
+241,Jim,But they were worth nothing! Why didn't anyone know? Why didn't you know?
+242,Humphrey,"(sighs, humiliated) Everyone thought that everyone else understood what was going on and nobody wanted to admit they couldn't make sense of it."
+243,Jim,Why couldn't they?
+244,Humphrey,"Because it didn't make sense! Everybody thought that all the others knew, and there were some who knew, but the ones who didn't know didn't believe that the ones who did know knew."
+245,Jim,Say that again?
+246,Humphrey,Nobody wanted to rock the boat because everyone was making so much money!
+247,Jim,"Computer models, Humphrey, are no different from fashion models: seductive, unreliable, easily corrupted, and they lead sensible people to make fools of themselves. And because you believed the computer models about the euro you tried to bounce your plan past me, and not tell me until it was too late. I'm appalled. I really don't know if we can go on working together."
+248,Humphrey,Prime Minister!
+249,Jim,I always thought I could trust you.
+250,Humphrey,(anguished) You can!
+251,Jim,"Quite frankly, I'm now profoundly suspicious of this whole pipeline plan. I mean, I don't know what else I don't know. Do you know?"
+252,Humphrey,Do I know what you don't know?
+253,Jim,Yes. Is there anything else I don't know that I should know?
+254,Humphrey,"Well, I ... I hardly know where to begin."
+255,Jim,"About this plan, I mean!"
+257,Humphrey,"Prime Minister, you know everything that you need to know. If you want the loan, if you don't want your premiership to crash on rake-off, this is the way it has to be."
+259,Bernard,"Drinks with Mr Aitikecv, the Kumranistani Foreign Secretary, are in five minutes, Prime Minister."
+260,Jim,"Thank you, Bernard. At least I can believe what you tell me."
+262,Humphrey,Shut the door.
+264,Humphrey,Did you tell the Prime Minister about joining the euro?
+265,Humphrey,"Well, what put him on to it?"
+266,Bernard,Perhaps it was his Special Adviser.
+267,Humphrey,That woman! How did she get here without our knowing?
+268,Bernard,I expect he called her on his BlackBerry.
+269,Humphrey,"Bernard! You're letting him make his own appointments? If you lose control over his diary, you lose control over him! You never know where it'll end. He'll start running the country."
+270,Bernard,He can't. He doesn't know how to.
+271,Humphrey,Of course he doesn't. So he must be stopped.
+272,Bernard,But what can I do about it?
+273,Humphrey,"Get rid of his BlackBerry, Bernard!"
+274,Bernard,How?
+275,Humphrey,Look. Give me yours.
+277,Humphrey,Get me a paper clip.
+279,Humphrey,You slide off.the back plate. Take out the battery. See that hole? It's the reset button. Push it in there. Right. Now it's scrambled for days.
+281,Bernard,Sir Humphrey! I had no idea you understood technology.
+282,Humphrey,I understand survival. You can practise while I'm at the dinner.
+287,Jim,"Dinner went well, I thought. They liked my speech."
+289,Jim,(gives her a look) What did you make of the Kumranistani Foreign Minister? You think he's really going to come up with this loan?
+291,Jim,Then all we'll need is a few endorsements.
+293,Jim,Yes. Do you remember the World Economic Forum at Davos? That really worked because Bob Geldof came out in support of it.
+295,Jim,Bono. Great!
+298,Bernard,"I wasn't there, I was busy with - other things."
+299,Jim,"Pity, you'd have enjoyed my speech."
+300,Bernard,"I'm sure, Prime Minister, but I beard the goulash was good."
+301,Jim,(gives him a look) New cook.
+302,Bernard,"Yes, and in connection with that, we have a situation. We've just discovered the cook here is in the UK illegally."
+304,Jim,How? What the hell is the Home Office doing?
+305,Bernard,I wonder if anyone will ever solve that perennial riddle.
+306,Jim,"Plotting against me, I should imagine. The Home Secretary wants my job too."
+308,Jim,"I'll reshuffle her to the graveyard: the Minister of Culture, Media and Sports. There's no coming back from there."
+309,Bernard,I've never understood the connection between those three.
+310,Jim,"Culture, Media and Sports? None of them matter."
+312,Bernard,What do I do about this cook?
+313,Jim,Where's she from?
+314,Bernard,"She wouldn't say, apparently, but she's got a false EU passport."
+315,Jim,Can't we just rush a visa through for her?
+316,Bernard,"I'll try, but if you're right about the Home Office it'll take months. I think we have to let her go."
+317,Jim,Right. We can't risk the media finding out. 'PRIME MINISTER HARBOURS ILLEGAL IMMIGRANT!' How did it come to light?
+318,Bernard,One of the waiters mentioned it at dinner.
+319,Jim,Somebody's probably phoned the BBC already.
+321,Bernard,"Hello ... It's the BBC ... Oh, I see. Fine ... Ahl (He hangs up.)That was actually the Press Office. BBC Television's devoting their Sunday morning programme to you, Prime Minister."
+322,Jim,Devoting it to me?
+323,Bernard,No other stories. A full hour about you.
+324,Jim,Should I be pleased?
+325,Bernard,I fear not. It will be called Government in Crisis.
+326,Jim,Christ!
+327,Bernard,They want to interview you about the rumoured Cabinet reshuffle and the deadlock in the Lancaster House Conference.
+329,Jim,If I could mention the Kumranistan loan ...
+331,Jim,Phone them back. Pretend to be helpful.
+334,Bernard,I haven't seen this before.
+335,Jim,Supplied by the Press Office.
+337,Bernard,"Good. (Dials.) Yes ... May I speak to Robin Simpson? (Listens.) Yes, it's Bernard Wolley here, the Prime Minister's Principal Private Secretary... He can't speak to you himself, but how can I help?"
+342,Bernard,'The Prime Minister is not interested in Westminster tittle-tartle. He has the full support of his colleagues and his party on all matters of substance. It's business as usual.'
+345,Bernard,(as be turns the page) You're serious asking me that?
+347,Bernard,'The Prime Minister was elected to do a job and he intends to get on with it. It will mean rough decisions but that's what the country expects and that's what he's going to do.' Next?
+351,Bernard,"'This isn't a British crisis, it's a world crisis. Many countries are worse affected than we are. We intend to play our part within the community.'"
+353,Jim,Two?
+356,Bernard,'The government will do everything that needs to be done. He will not flinch from his duty and a statement will be made when the rime is ripe.'
+358,Bernard,I don't think that.
+360,Bernard,What?
+363,Bernard,"No, sorry, that's the TV you can hear."
+365,Bernard,Um ... (Flipping page to read number five.) 'The meeting stroke conference has certainly not been a failure. There has been invaluable groundwork and a blueprint is being drawn up for the next phase. Rome wasn't built in a day.' (Listens.) Thank you.
+366,Jim,What's she thanking you for?
+367,Bernard,(hand over mouthpiece) She says I've been thoroughly unhelpful.
+368,Jim,"Well done, Bernard."
+369,Bernard,(into phone) What? ... How happy is the Prime Minister about his future?
+370,Jim,I'm as happy as a ratcatcher on a rubbish dump.
+371,Bernard,The Prime Minister is as happy as an Environmental Health Officer on a Civic Amenity Site.
+373,Jim,"I hate the BBC. Always waxing indignant. Nasty, rude, arrogant, aggressive, ungraceful people who all think they could do better than me. They have their own political line. It's like having three Oppositions: one at Westminster and two others at Broadcasting House and the TV Centre."
+375,Bernard,"Yes? ... Oh, Ms Simpson again ... What kind of leak? ... About joining the euro?"
+377,Bernard,"No, the Prime Minister knows nothing about this, Britain's position on the euro is unchanged ... No, I can't explain the markers, who can?"
+379,Jim,Let's get online.
+381,Jim,My BlackBerry doesn't seem to be working.
+382,Bernard,(pretending surprise) Good heavens! Mine isn't either.
+384,Jim,Why?
+387,Jim,He's out of control.
+388,Bernard,It might have been someone else.
+389,Jim,Who else knew? Even I didn't know.
+391,Bernard,"When last seen, he was drowning his sorrows in a glass of the Glenlivet in the Long Gallery."
+392,Jim,(still thinking) As there's been heavy buying of the euro .. . that would explain today's heavy selling of the pound. I must do something. (He does nothing.)
+393,Bernard,"You know, I'm sure Humphrey wouldn't leak."
+394,Jim,Are you?
+395,Bernard,No.
+396,Jim,He tried to bounce us into the euro and feather his nest by briefing the bank. I've got to get him under control. He's an over-mighty subject.
+397,Bernard,"Actually, he's the Queen's subject, not yours, you're just the -"
+398,Jim,"I know who I am, Bernard! Claire, it's just one more example of the corruption of those who think they're above the law. We've started to curb the MPs, now we must deal with the Civil Service."
+400,Bernard,What paper?
+402,Bernard,Oh! That paper.
+403,Jim,"So we have. Where is it, Bernard?"
+404,Bernard,(immediately) It's gone.
+405,Jim,"What do you mean, 'gone'?"
+406,Bernard,Lost. Discredited. Shredded. One of those. Can't remember exactly.
+407,Jim,Bernard...
+408,Bernard,It really wasn't very good. Too general. Badly argued. Impracticable. Over-specific ...
+409,Jim,Too general and over-specific?
+412,Jim,Oh yes. (Chuckles.) Than will really cramp their style. Clip their wings. (Chuckles.) Tie their hands.
+413,Bernard,"Nothing has hands and wings, Prime Minister."
+414,Jim,"Sorry, Bernard, but the party will love this. So will the MPs. It'll deflect attention from all their little fiddles and diddles. Get Humphrey in, Bernard."
+419,Bernard,He's coming.
+421,Jim,"Ah, Humphrey, sit down. We've been talking about this leak."
+422,Humphrey,"Who leak, Prime Minister?"
+423,Jim,"About joining the euro. Surely you've heard? It's all round the City, apparently."
+424,Humphrey,"Oh. That. Yes, well..."
+425,Jim,What can you tell me about it?
+426,Humphrey,"I, Prime Minister? Nothing, except I'm told there are these rumours. Happens all the time."
+427,Jim,This is different. Hardly anybody knew your plan. Then Golding Brothers Bank started buying wads of euros this afternoon. Who tipped them off?
+428,Humphrey,"If anyone did, we'll never find out."
+429,Jim,"Oh, I think we will. Um - where did you have lunch yesterday, Humphrey?"
+430,Humphrey,I can't remember.
+431,Bernard,"It was Le Gavroche, Sir Humphrey."
+432,Humphrey,"Oh yes, Le Gavroche. Why?"
+433,Jim,On your own?
+434,Humphrey,"I, er, I don't recall... Now who was it?"
+435,Jim,You don't remember that either?
+436,Humphrey,One has so many lunches.
+437,Jim,"(helpfully) One a day, in fact."
+438,Humphrey,Yes.
+439,Jim,"I understand. Bernard, ring Le Gavroche and ask the Head Waiter who Sir Humphrey had lunch with yesterday."
+441,Humphrey,"Oh yes, I remember now. Some friends."
+442,Jim,Who were they?
+443,Humphrey,Just friends.
+444,Jim,Not directors of Goldings Brothers Bank?
+445,Humphrey,"Prime Minister, one does not cross-examine one's friends about what directorships they may happen to hold."
+446,Jim,"Well, we can easily find out. Anyway, that's not the point."
+447,Humphrey,"No, of course it's not... What is the point, exactly?"
+448,Jim,"The point is, there is bound to be suspicion in cases like this."
+449,Humphrey,"I can't see why. Surely you know, Prime Minister, that the Civil Service will always do what is best for the country."
+450,Jim,What about the government?
+451,Humphrey,I presume the government will too.
+452,Jim,Right. And this air of suspicion isn't fair on loyal public servants.
+453,Humphrey,It certainly isn't.
+454,Jim,So I've decided to introduce a new Civil Service Act.
+455,Humphrey,What?!
+456,Jim,"Yes, I think you'll be very happy about this. It will include a ban on any related jobs for civil servants for five years after they retire. No revolving door any more. Gone for good."
+457,Humphrey,But...Prime!Minisrer...
+458,Jim,"No paid directorships, or quangos, no paid consultancies ..."
+459,Humphrey,"But that's absurd! Men of great wisdom, great experience, leading figures of their generation, so much to offer ..."
+460,Jim,"And they can offer it, Humphrey. Pro Bono. Latin, Bernard."
+461,Bernard,"Pro bono publico, actually."
+462,Jim,"Exactly. All that wisdom and experience can be offered to the unpaid voluntary sector, Humphrey, for the public good. It will remove all the temptation to betray government confidences to commercial employers. That'll be a relief, won't it?"
+463,Humphrey,But there's never been a problem. We have a clearance committee. Everybody's new job has to be approved by it.
+464,Jim,Who appoints the members?
+465,Humphrey,Um ...
+466,Bernard,There's an established procedure...
+468,Humphrey,"Do I? Oh yes, so I do. As it happens."
+469,Jim,So that will be another burden off your shoulders. We'll appoint an independent Clearance Czar.
+470,Humphrey,"Not another czar, please, Prime Minister. In the last three years we've appointed an Enterprise Czar, a Youth-Crime Czar, a Welfare Supremo, a Pre-School Supremo, an Unemployment Watchdog, a Banking Regulator, a Science and Technology Supremo and a Community Policing Czar. If you go on like this you won't need a Cabinet."
+471,Jim,Perfect!
+472,Humphrey,"Perfect? Prime Minister, we even have a Twitter Czar!"
+473,Bernard,His appointment was announced as a Tweet.
+474,Humphrey,What's he supposed to achieve?
+475,Jim,"The same as the others: at least twelve column inches in every paper. Merely by announcing them, it was achieved - it showed we were responsive, we were doing something, and it shut the press up. And - it didn't cost anything."
+476,Humphrey,The Twitter Czar earns a hundred and sixty thousand a year!
+477,Jim,Cheap at the price. Headline news everywhere.
+478,Bernard,It would have cost much more if we'd set them up with offices and staff.
+480,Bernard,"Prime Minister, may I urge you, 'Medio tutissimus ibis. Moderation in all things. Ovid, of course."
+481,Jim,I'm being moderate.
+482,Humphrey,"Get rid of index-linked pensions? You wouldn't want to do that to the nurses, would you? Or the dedicated teachers, the courageous policemen, the gallant firemen ... ?"
+484,Humphrey,"(laughs mirthlessly) Very droll, dear lady. Prime Minister ... I agree that there are aspects of the organisation and administration of the public sector which could certainly benefit from measured consideration in the context of changing circumstances and the structural metamorphosis precipitated by the communications revolution, but it is important to bear in mind that, exceptis excipiendis, administrative practical conditions of service have evolved over many years with manifold and complex interrelationships, and any attempt to vary one of them could have serious and unforeseeable effects on others, so to that end I would propose setting up a series of interdepartmental committees ..."
+485,Jim,"No, Humphrey! NO time for interdepartmental committees. But there is one other change that I'd welcome your views on."
+486,Humphrey,Prime Minister?
+487,Jim,Would you call yourself a generalist? With your degree in classics?
+488,Humphrey,"Indeed I would, Prime Minister. First class degree, actually."
+489,Bernard,Me too.
+490,Jim,"You see, I was over at the Ministry of Defense yesterday. I find them rather impressive, don't you?"
+491,Humphrey,"(wary) I do, Prime Minister."
+492,Jim,"What was really impressive was that they knew what they were talking about. They were qualified professionals. Soldiers, generals, admirals, experienced commanders ... All our other government departments are staffed by historians and literature graduates - and classicists."
+493,Humphrey,Excellent. Men with the wisdom of the ages.
+494,Jim,"No, Humphrey. Amateurs."
+495,Humphrey,Amateurs?!
+496,Jim,"We should have teachers at the Department of Education, doctors and nurses at the Department of Health, accountants and actuaries at the Treasury. Experts. People who actually know what needs to be done."
+497,Humphrey,"I think that would be very dangerous, Prime Minister."
+498,Jim,We would still need generalist to take a broader view -
+499,Humphrey,Indeed.
+501,Humphrey,"With respect, civil servants are not very much like you and we do know how to run things."
+502,Jim,"I want advice from real people, who live in the real world doing the real jobs -"
+503,Humphrey,"Prime Minister, you're striking at the very heart of our whole system of government. Our success is founded upon staying free from the taint of professionalism. And the corruption of specialist knowledge. You're not seriously - you can't be serious - it's out of the question... You wouldn't really do this? Would he, Bernard?"
+505,Jim,"I would. If we're not getting the Kumranistan loan we won't be needing parliamentary time this session to pass a special Finance Act, so we could pass the Civil Service Act instead."
+506,Humphrey,"Ah. You mean, if the European Central Bank agreed that the loan could go direct to the individual countries..?"
+507,Jim,"In their chosen currency ... Yes, the Civil Service Act would go on the back burner. Bur you said they wouldn't agree."
+508,Humphrey,I didn't think they'd agree... But I could be wrong.
+509,Jim,(smiling beatifically) Say that again?
+510,Humphrey,"(tight-lipped) I said, 'I could be wrong.' (Stands.) Leave it with me, Prime Minister. Bernard!"
+513,Jim,Do you think Humphrey can square the Central Bank?
+515,Jim,So all that business about joining the euro ... ?
+517,Jim,Why is he so keen on Europe?
+519,Jim,Is that why he leaked this to his banking chums?
+521,Jim,He's going co have some explaining to do when they realise we're not joining.
+524,Humphrey,"I've had a quick word with the head of the ECB, Prime Minister. He's talking to everyone."
+525,Jim,"Good. So, if they al l agree, we may actually have this loan in place. Nothing else can go wrong tonight, can it?"
+526,Humphrey,"I don't see how, Prime Minister."
+528,Bernard,Prime Minister -
+529,Jim,"Cheer up, Bernard, have a drinkie, it looks as though your index-linked pension may be safe after all."
+530,Bernard,"No, Prime Minister - I'm - um - I'm afraid we have a... a situation."
+531,Jim,Can't it wait till the morning?
+532,Bernard,"No, it can't. We have a problem. With the Kumanranistan Foreign Secretary."
+534,Jim,Nice chap.
+535,Bernard,Yes - well...
+537,Bernard,"He just buttoneholed me in the hall. It seems that Mr Aitikeev wants us to provide a... um, sexual partner for him tonight."
+538,Jim,What a prat.
+540,Jim,"I always said he was a prat, didn't I?"
+541,Humphrey,"Boundaries have to be drawn, Bernard."
+542,Bernard,"I know. Sir Humphrey - Prime Minister - with respect, it is our problem. I ... I confess I didn't handle it as diplomatically as I should have. I'm afraid he felt slighted. He indicated that unless we find him what he wants he won't sign the contract tomorrow."
+544,Jim,My God!
+545,Humphrey,How did this happen?
+546,Jim,Why didn't you say you'd try to find him someone?
+547,Bernard,"I should have but, frankly, I was a little shocked."
+548,Humphrey,(judicious agreement) Yes.
+550,Bernard,"How, exactly?"
+551,Humphrey,"Yes, how, exactly? This is Chequers, not Soho."
+553,Bernard,(aghast) Me?
+554,Jim,Are you serious? What about all the security at the gate?
+556,Jim,Don't they? Why not? And where do you suggest we get a chopper at this time of night?
+557,Bernard,We do have an RAF helicopter standing by this weekend. The one the Queen uses.
+558,Jim,"Do I understand this correctly? You want us to bring a call girl here, in the royal helicopter? For the Kumranistan Foreign Minister? Would you say that's an appropriate use of taxpayers' money?"
+563,Humphrey,I think we should talk co Mr Aitikeev about this.
+564,Jim,Who should?
+565,Humphrey,You should.
+566,Jim,I'm not doing it.
+567,Humphrey,"The Foreign Secretary's his opposite number, but you refused to invite him this weekend. Clearly you should have. Claire can't do it, she's a woman. You outrank him, so it has to be you."
+568,Jim,"I can't possibly do it. This conversation is for a subordinate. Like you, Humphrey."
+570,Humphrey,"Perhaps you're right. So I suggest that, as Mr Aitikeev spoke to Bernard, and as he's the Private Secretary, Bernard should talk to him. I think that would be the diplomatic protocol."
+571,Bernard,Um - I can't seem to recall any diplomatic protocol that specifies the Principal Private Secretary does the pimping.
+572,Jim,"Well - okay, nor you yourself, maybe, one of your people."
+573,Bernard,"I don't have any people here. And Prime Minister, we absolutely can't let anyone else in on this."
+574,Jim,Why not?
+575,Bernard,"I'm - um, afraid there's more. He has specific - tastes."
+576,Jim,"You mean, like blonde or brunette?"
+577,Bernard,Not exactly.
+578,Jim,"What? You mean, a redhead?"
+579,Bernard,"No, sir."
+582,Bernard,If only it were that simple.
+583,Jim,"Bernard, what sort of woman does he want?"
+584,Bernard,Not a woman. A girl. A schoolgirl.
+586,Jim,We can't possibly condone that.
+587,Bernard,"Of course not, Prime Minister. So, what do you suggest I do?"
+589,Bernard,"No. He specified an underage schoolgirl. About twelve years old, preferably. Otherwise the whole deal's off."
+590,Jim,How dare you bring such a disgusting proposition to me?!
+591,Bernard,"I'm sorry, Prime Minister. Should I have just let the deal and the conference collapse?"
+593,Jim,How did he mention it? Was he embarrassed?
+594,Bernard,"He said he was making a request in total confidence. I assured him I'm extremely discreet. He said, 'No, I want it to be in total confidence.' ' Fine,' I said. 'No problem.' Then he told me. I thought I must have misheard so I asked him to repeat it. He did. I'm afraid he saw the look on my face. He got angry. Made some threats. Told me to see to it or else."
+595,Jim,You should have said it just wasn't possible.
+596,Bernard,"I did. He. said they got a man on the moon, we can get a girl from King's Cross."
+598,Jim,"But hardly the point, Claire."
+599,Humphrey,"Claire, can Mr Aitikeev really wipe out months of diplomacy?"
+601,Jim,"Aitikeev wanes this deal, right?"
+604,Jim,"Claire, won't Aitikeev lose face if the deal falls apart?"
+606,Jim,Why not him?
+608,Jim,He certainly won't get any more weapons if he screws us over.
+609,Humphrey,Maybe Aitikeev doesn't care about the weapons. Maybe it's just the President who wants them.
+611,Jim,Doesn't Aitikeev have to account to his President if this all goes south?
+613,Humphrey,There's another possibility. Maybe Aitikeev's bluffing. Maybe it's a test.
+614,Jim,A test? Of what?
+615,Humphrey,Of our friendship.
+616,Jim,We hardly know him.
+617,Humphrey,Precisely.
+619,Jim,"All I know is, we have to make this deal stick! What happens if it all falls apart now and Kumranistan gets offended?"
+621,Jim,It would not! It's a very unstable region. Nuclear proliferation is spreading.
+622,Humphrey,"Yes. Proliferating, in fact."
+624,Bernard,"No, he's staying overnight too."
+626,Jim,"Good idea. Bring him here, right away."
+627,Bernard,"(hurrying to the door) Yes, Prime Minister."
+629,Jim,Okay. Here's my question: why didn't Ml6 warn us that Aitikeev was a pervert?
+630,Humphrey,Perhaps they don't know.
+631,Jim,"(getting up) That's their job, isn't it? We could have been blackmailing Kumranisran for donkeys' years, instead of having to give them all those weapons systems."
+632,Humphrey,Please don't say it that way.We don't approve of blackmail as an instrument of government policy.
+633,Jim,Since when?
+634,Humphrey,"Blackmail is criminal, Prime Minister. We use leverage."
+636,Jim,Very nice of us. What's this Ambassador like?
+637,Humphrey,Very good chap. We were undergraduates together at Balliol.
+638,Jim,He's a friend
+639,Humphrey,We are friendly.
+641,Jim,I wonder... if the President of Kumranistan knows about Mr Airikeev's ... tastes? Can we find out?
+644,Jim,Wake up the President of Kumranistan in the middle of the night and ask if he knows his Foreign Minister likes shagging schoolgirls? I'm not sure exactly what would be gained from that.
+646,Humphrey,"Not a very good one, dear lady."
+648,Jim,"What I meant was, might the Ambassador give us that kind of information?"
+649,Humphrey,Who knows
+651,Jim,Still humid.
+655,Humphrey,How shocking!
+657,Jim,Is that supposed tO be my fault too?
+659,Jim,"(losing it) Do we have to deal with that tonight? As well as the collapsing conference, the ECB, the BBC, my treacherous Cabinet, my disloyal Party, your leaks, the illegal immigrant, the run on the pound, the Kumranistani paedophiliac... ? Is there anything else, anything else we can pile on me tonight? Oh yes! Global bloody warming, thank you very much!"
+663,Humphrey,"Meanwhile, may I suggest that you don't worry too much about global warming?"
+664,Jim,Right. I can't do anything about that tonight.
+665,Humphrey,"Tell me, how do they know we're all going to drown in fifty years when the weather forecast was so wrong last Friday?"
+666,Jim,Because all the scientists agree -
+667,Humphrey,So they say. So do the computer models. I know. But why should global-warming computer models be any more accurate than financial ones?
+668,Jim,Um...
+669,Humphrey,Wall Street computer models were designed to prove sub-prime mortgage derivatives were low risk. These computer models are designed to show global warming is getting worse.
+670,Jim,"Come off it, Humphrey."
+671,Humphrey,"Remember mad cow disease? Computer models for that proved that we'd be dying in our hundreds of thousands by now. The only thing is, virtually nobody died, did they? Same with the salmonella-in-eggs computer models. Same with swine flu."
+672,Jim,"You're suggesting ... what, exactly?"
+673,Humphrey,"Global-warming models leave out nearly all the other possible causes except CO2. And then they say 'Look, CO2 has caused all this climate change.'"
+674,Jim,What other causes are there?
+675,Humphrey,"If the earth were actually getting warmer, one might start by looking at the sun. Solar activity, water vapour, cosmic rays, sun spots, underwater volcanoes -"
+676,Jim,"If? The world is getting hotter, the science is .. overwhelming everyone knows that."
+677,Humphrey,There's been no rise in temperature since 1998.
+678,Jim,"Really? But it was rising, wasn't it?"
+679,Humphrey,"From 1975 to 1998, yes, absolutely."
+680,Jim,That's what I mean.
+681,Humphrey,"But it fell from 1940 to 1975. Even though that was a heavily industrialised period, when CO2 shot up. And overall the temperature isn't rising at all: the hottest year in the twentieth century was 1934."
+682,Jim,I read that two thousand five hundred top climate scientists contributed to the last IPCC survey and they all agreed that man-made global warming is a proven fact and trapped greenhouse gases are the cause.
+683,Humphrey,"Nearly fifty of them agreed. The others didn't, actually. Bur their views were left out of the summaries given to the press."
+685,Humphrey,"Yes. Beautiful, aren't they?"
+687,Humphrey,"No, that's caused by warm water masses from the Pacific."
+689,Humphrey,Are they?
+691,Humphrey,But the people who actually go and count them have found more than there were thirty years ago.
+692,Jim,"For heaven's sake, Humphrey! If it's all such nonsense. Why does everyone believe it?..."
+693,Humphrey,"(amused) Hard to understand, I agree. But some scientists believe it, lots of others want the billions of pounds you can get for research that seems to show that global warming is caused by greenhouse gases, and most of the scientists who disagree can't get published. Journalists love shock-horror stories, governments want to look virtuous to the voters, lefties want a way to rubbish big oil, and it makes the tree-huggers, whale- savers, anti-capitalists and everyone at the B.BC feel holier than thou and warm and fuzzy inside. What's not to like?"
+694,Jim,Why hasn't anyone else said all this?
+695,Humphrey,"(chuckles) They certainly do, for all the businessmen who are getting enormous government grants for them. But there isn't enough wind to be practical. The total output of all the UK wind turbines put together is one-fifth of one decent-sized coal-fired power station."
+697,Humphrey,My job is not to believe or disbelieve. My job is to weigh up arguments and produce answers. That's what the Civil Service is for.
+699,Humphrey,We can't do something about everything. In fact we can't do much about anything. But I can give the Prime Minister ways of deflecting awkward questions and minimising the apparent urgency.
+701,Jim,"No, they'd let me go on as long as I liked.Then the Home Secretary would send round two men in white coats to take me away."
+703,Jim,"Claire, phone the BBC back about global warming and give them a version of number six."
+706,Jim,I really think you must be misinformed somewhere. Al Gore got the Nobel Peace Prize for his work on global warming.
+707,Humphrey,So did Dr Kissinger for his work on the Vietnam War.
+710,Jim,(ignoring Claire) You think it's all a scam? I can't get my head around this.
+711,Humphrey,"For some people it's a scam. For most, it's just the greatest outbreak of collective hysteria since the witchcraft trials in the seventeenth century."
+713,Bernard,"The Ambassador of Kumranistan, Prime Minister."
+714,Jim,I'm not ready for him. Oh God!
+718,Jim,Ah. Your Excellency!
+719,Ambassador,"Prime Minister. Please excuse my deshabille, I had just retired for rhe night when I received your summons."
+720,Jim,No problem. We're awfully casual at Chequers.
+721,Ambassador,"(turns to Humphrey) Ah, Bubbles, my dear chap. It's like the old days, isn't it? Late night drinks and all that."
+722,Jim,Bubbles?
+724,Ambassador,They don't know your old nickname?
+725,Humphrey,"(mortified) No, they ... er ... a silly thing, Prime Minister ... I used to be partial to champagne, that's all."
+726,Jim,"And this is Claire, Head of the Policy Unit at Number Ten."
+728,Jim,I'm glad to hear that you and Bubbles are old friends.
+730,Ambassador,Yes indeed.
+731,Jim,So. Bernard's briefed you?
+732,Ambassador,He has.
+733,Jim,And?
+734,Ambassador,And - what?
+735,Jim,Exactly. And what?
+737,Ambassador,I'm not sure that I know precisely what you are asking me.
+738,Jim,Does Mr Aitikeev mean what he says?
+739,Ambassador,"Prime Minister, the Foreign Minister consults me on matters of Kumranistan's policy pertaining to the United Kingdom. Mr Aitikeev's sexual proclivities are not a matter of public policy."
+740,Jim,Did you know about his perverted tastes?
+741,Ambassador,I don't consider it my business.
+742,Humphrey,"Well, unfortunately he's sort of made it our business."
+743,Ambassador,"My understanding is that he asked the Prime Minister's Private Secretary to keep it confidential, and the Private Secretary agreed. Now there are five of us discussing it. (To Bernard.) Would you say you kept your word?"
+744,Humphrey,"Oh come on, Freddie..."
+745,Humphrey,"Bernard couldn't keep it confidential, could he, not after Mr Aitikeev made those threats?"
+746,Ambassador,J really can't comment. I didn't hear the conversation.
+748,Ambassador,He can be stubborn.
+750,Humphrey,Has this sort of ... request been made by him before?
+751,Ambassador,"No. Well, yes. In Bangkok, I believe, but no one took any notice because that's par for the course there really, isn't it?"
+752,Jim,Is it?
+753,Ambassador,Isn't it?
+754,Jim,Has this happened anywhere else?
+755,Ambassador,"Well, Bombay, the Philippines - you know, a few third-world places but ... that's different."
+757,Ambassador,It's understood.
+758,Jim,Is it?
+759,Ambassador,Isn't it?
+761,Ambassador,"I wouldn't know if it's accepted or the norm exactly, but it's certainly not unusual. Look, I suspect that my personal opinion is the same as yours. But I am here, not as a moralist, but as a servant of our government."
+762,Jim,So you feel you have to defend him.
+763,Ambassador,"He is a member of the government, and my boss."
+764,Jim,But there are moral considerations here.
+765,Ambassador,"Indeed there are. And in all fairness to Mr Aitikeev, I'm quite sure that he did not ask you to obtain a virgin for him. (Turns to Bernard.) Am I right?"
+767,Bernard,"No, funnily enough, he didn't."
+768,Ambassador,As I thought. He'd never do that.
+769,Jim,Because?
+770,Ambassador,Moral considerations. He would not defile her. He would want a girl who has already been defiled.
+771,Jim,That's more moral?
+772,Ambassador,"In our culture, once a female has been defiled she is worthless. Dishonoured. Her family will not take her back. If they do, they will kill her. Few men would marry her. Her only real future is in a brothel. As a moral society we have no tolerance for that sort of thing."
+774,Jim,Are you suggesting that we are a less moral society: than Kumranistan?
+775,Ambassador,"I would say, we are even more rigorous about purity than Great Britain, yes. But in this instance Mr Aitikeev is offering an excellent opportunity to such a girl: he's not ungenerous and I'm sure he will give her hundreds of pounds. That's better than death, wouldn't you say?"
+777,Ambassador,"Forgive me, but I'm describing our culture. Mr Aitikeev's culture."
+778,Jim,But it's wrong.
+779,Ambassador,You say tomayto and I say romahto.
+780,Jim,What?
+781,Ambassador,You believe your values are right. So do we.
+784,Ambassador,I'm a diplomat.
+786,Ambassador,"I am a Libra. And a member of the MCC, of course."

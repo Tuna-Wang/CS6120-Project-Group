@@ -1,0 +1,5 @@
+2025-04-16 17:37:30,892 - ERROR - Error in imitation: API key is required for Gemini backend.
+2025-04-16 17:42:13,761 - WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+2025-04-16 17:42:17,855 - WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+2025-04-16 17:42:19,788 - WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: [Errno 64] Host is down
+2025-04-16 17:42:19,789 - ERROR - Failed to generate signed URL: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.

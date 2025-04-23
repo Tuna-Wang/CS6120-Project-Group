@@ -51,12 +51,13 @@ function App() {
   
     try {
       // Step 1: Request signed URL from backend
-      const res = await axios.post("http://localhost:8000/api/generate-upload-url", {
+      console.log("Fetching upload url:...")
+      const res = await axios.post("http://34.55.234.72:8000/api/generate-upload-url", {
         filename: file.name,
       });
-  
+      console.log("Signed upload URL:", res.data)
       const signedUrl = res.data.url;
-  
+
       // Step 2: Upload file directly to GCS
       await axios.put(signedUrl, file, {
         headers: {
