@@ -269,3 +269,29 @@ body, html {
   font-weight: 500;
   color: #2c4f27;
 }
+
+
+/* 让按钮变成块级并往下移动，还能靠右 */
+/* 3. 将 See Citations 按钮移到气泡右下并换色 */
+.chatGpt-bubble {
+  position: relative; /* 为绝对定位做参照 */
+}
+.chatGpt-bubble > button {
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  background-color: #e8e4f2;  /* 淡紫灰 */
+  color: #555;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background-color .2s, color .2s;
+}
+.chatGpt-bubble > button:hover {
+  background-color: #dcd8ea;
+  color: #333;
+}
+
