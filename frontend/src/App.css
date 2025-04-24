@@ -16,16 +16,16 @@ body, html {
 
 /* Left sidebar */
 .sidebar {
-  flex: 1; /* Let the sidebar be ~1 unit wide */
-  min-width: 220px; /* if you want a min width, can keep or remove */
-  background-color: #f5f5f5; /* Lighter purple background? */
+  flex: 1;
+  min-width: 220px;
+  background-color: #f5f5f5 lavender;
   display: flex;
   flex-direction: column;
-  padding: 300px 20px 20px 20px; /* smaller top padding so it doesn't become huge on smaller screens */
-  border-right: 1px solid #ccc;
+  padding: 300px 20px 20px;
+  border-right: 2px solid #e8e4f2;
 }
 
-/* Header: Logo + Title in a row */
+/* Header */
 .sidebar-header {
   display: flex;
   align-items: center;
@@ -33,106 +33,105 @@ body, html {
   justify-content: center;
 }
 
-/* The purple logo frame - we can scale with clamp or keep a fixed size */
 .sidebar-logo-frame {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  /* 
-     Using clamp ensures it won't be smaller than 40px or bigger than 60px,
-     but can scale in between if the sidebar shrinks or grows 
-  */
   width: clamp(40px, 10vw, 60px);
   height: clamp(40px, 10vw, 60px);
-
   border-radius: 50%;
-  background-color: #a077c2;  /* purple brand color */
+  background-color: #d6caf5;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   margin-right: 8px;
 }
 
-/* Logo inside the frame. We'll also clamp, but smaller. */
 .sidebar-logo {
-  width: 70%; 
-  height: 70%;    /* 70% of the frame, leaving 30% for the purple ring */
+  width: 70%;
+  height: 70%;
   border-radius: 50%;
   object-fit: cover;
 }
 
-/* Title next to the logo frame */
 .sidebar-title {
   margin: 0;
   font-size: 22px;
 }
 
-/* Body: items stacked with a gap */
+/* Body buttons */
 .sidebar-body {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  margin-top: 20px; /* space after the header */
+  margin-top: 20px;
 }
 
-/* 1) API indicator, 2) link, 3) button: all share a similar style so they line up and scale horizontally */
+/* —— 三条条目：API、Build、Clear —— */
 .api-indicator,
 .blog-link,
 .clear-btn {
-  display: inline-flex;       /* so we can see text + icon side by side if needed */
-  align-items: center;
-  justify-content: center;
-  background-color: #a5beef;
-  color: #2c4f27;
-  padding: 8px 14px;
-  border-radius: 8px;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 1.2;
-  /* Let them scale to fill up the available width without overflowing. */
+  /* 统一尺寸 */
   width: 100%;
-  box-sizing: border-box;
-  text-decoration: none; /* for blog-link so there's no underline */
-}
-
-/* Distinguish them as needed */
-/* API-indicator might have an icon inside that is different. */
-.api-indicator {
-  gap: 10px;
-}
-
-/* If you have an icon in the .api-indicator */
-.api-indicator-icon {
-  width: 1.8rem;
-  height: 1.8rem;
-  background-color: #2c4f27; /* dark greenish/blueish */
-  color: white;
+  min-height: 48px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 4px;
-  font-size: 16px;
+
+  /* 统一配色 */
+  background-color: #e8e4f2;
+  color: #000;              /* 文字改成黑色 */
+  font-size: 16px;          /* 统一字体大小 */
+  font-weight: 500;         /* 统一字体粗细 */
+  line-height: 1.2;
+
+  /* 圆角和内边距 */
+  border-radius: 8px;
+  padding: 0 14px;
+  box-sizing: border-box;
+
+  /* 鼠标样式 */
+  text-decoration: none;   /* 去掉链接下划线 */
+  cursor: pointer;
+}
+
+/* 去掉对号方块背景，仅保留白色 ✓ */
+.api-indicator .api-indicator-icon {
+  background-color: transparent !important;
+  border: none !important;
+  width: auto !important;
+  height: auto !important;
+  padding: 0 !important;
+  margin-right: 8px;       /* 保持图标和文字间距 */
+  color: #a5beef;             /* ✓ 保留白色 */
+  font-size: 20px;
   line-height: 1;
 }
 
-/* The link (2nd line) is just the same shape, no underline. */
-.blog-link {
-  text-align: center; /* or left, whichever you prefer */
+/* 上传区，同风格按钮 */
+.upload-label {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: black;
+  margin-bottom: 6px;
 }
-
-/* The button (3rd line) has a pointer on hover, etc. */
-.clear-btn {
+.upload-section input[type="file"] {
+  width: 100%;
+  min-height: 48px;
+  background-color: #a5beef;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
   border: none;
+  border-radius: 8px;
+  padding: 0 14px;
+  box-sizing: border-box;
   cursor: pointer;
-  text-align: center; /* or left if you want left-aligned text */
 }
 
-/* A simple hover effect for link & button if you want. */
-.blog-link:hover,
-.clear-btn:hover {
-  background-color: #93abd8; /* slightly darker variant */
-}
-
+/* —— 下面不动 —— */
 /* Right chat panel */
 .chat-panel {
-  flex: 2; /* 2 units => 2x the width of the left side */
+  flex: 2;
   display: flex;
   flex-direction: column;
   padding: 0 20px 20px;
@@ -140,25 +139,44 @@ body, html {
 
 /* Scrollable messages area */
 .chat-messages {
-  flex: 1;
+  flex: 2;
   overflow-y: auto;
   margin-top: 20px;
+  max-width: 100%;
+  padding: 0 1rem; /* 增加两侧呼吸空间 */
+  scrollbar-width: thin; /* 现代浏览器细滚动条 */
+  scrollbar-color: #d8d8d8 transparent; /* 滚动条配色 */
 }
-
+/* 自定义滚动条样式 */
+.chat-messages::-webkit-scrollbar {
+  width: 6px;
+}
+.chat-messages::-webkit-scrollbar-thumb {
+  background: lavender;
+  border-radius: 3px;
+}
 /* conversation block with slight gap */
 .chat-block {
-  margin-bottom: 16px;
+  margin-bottom: 24px;
+  opacity: 0;
+  transform: translateY(8px);
+  animation: fadeInUp .3s forwards;
+}
+@keyframes fadeInUp {
+  to { opacity: 1; transform: translateY(0); }
 }
 
 /* question bubble */
 .question-bubble {
-  background-color: #f5f5f5; /* light purple */
+  background-color: white; /* light purple */
   color: #333;
   padding: 10px;
   border-radius: 8px;
-  margin-bottom: 8px;
-  max-width: 80%;
-  border: 1px solid #ddd;
+  margin-bottom: 16px;
+  max-width: 100%;
+  background-color:white;
+  border: 1px solid #d4cde8; ;
+  margin-bottom: 2rem; /* 增大下边距 */
 }
 
 /* answer group bubble */
@@ -171,25 +189,36 @@ body, html {
 /* answer bubble styling */
 .answer-bubble {
   display: flex;
+  flex: 1;
+  padding: 12px 60px 12px 16px;
   align-items: flex-start;
   padding: 10px;
-  border: 1px solid #ddd;
+  border: 2px solid #e8e4f2;
   border-radius: 8px;
-  max-width: 80%;
-  background-color: #fff;
+  max-width: 100%;
+  background-color: white;
+  transition: transform 0.2s
+}
+
+.answer-bubble:hover {
+  transform: scale(1.02);
 }
 
 .chatGpt-bubble {
   background-color: #f8f8f8;
 }
 
-.humphrey-bubble {
-  background-color: #f2f8fc;
-}
+
 
 .icon {
   margin-right: 10px;
   font-size: 16px;
+}
+
+.choose-buttons {
+  display: flex;
+  justify-content: space-between;  /* 左右各一个 */
+  margin-top: 6px;  /* 气泡和按钮组之间留点空 */
 }
 
 /* style selection buttons inside chat */
@@ -198,15 +227,14 @@ body, html {
   padding: 6px 12px;
   border-radius: 6px;
   cursor: pointer;
-  border: 0.5px solid #ddd;
-  background-color:  #f5f5f5;
+  background-color: #dcd8ea;
+  border: 2px solid #e8e4f2;
+  background-color: whitesome;
 }
 
 .final-answer {
-  margin-top: 8px;
-  padding: 10px;
+  
   background-color: #fafafa;
-  border-left: 4px solid #444;
   border-radius: 8px;
   margin-bottom: 10px;
 }
@@ -217,11 +245,62 @@ body, html {
   display: flex;
   align-items: center;
   padding: 20px;
+  max-width: 100%;
+}
+
+/* 圆形上传「＋」按钮 */
+.chat-upload-btn {
+  position: absolute;
+  /* 左下角：距左边 16px，距底边同样 12px，按需微调 */
+  left: 30px;
+  bottom: 30px; 
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  font-size: 23px;
+  color:black;
+  background-color: #e8e4f2;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 5;
+  transition: background-color .15s, transform .15s;
+  user-select: none;
+}
+
+/* 悬浮提示 */
+.chat-upload-btn:hover {
+  background-color: #dcd8ea;
+  transform: scale(1.2);
+}
+
+
+
+
+/* 3. 自定义 Tooltip，字体更大、更鲜明 */
+.chat-upload-btn::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 100%;        /* 气泡往上 */
+  left: 50%;
+  transform: translateX(-50% + 10px) translateY(-6px);
+  padding: 6px 10px;
+  background: rgba(0,0,0,0.85);
+  color: #fff;
+  font-size: 13px;     /* 略大 */
+  border-radius: 4px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .15s;
+}
+.chat-upload-btn:hover::after {
+  opacity: 1;
 }
 
 .chat-input {
   flex: 1;
-  min-height: 50px;
+  min-height: 100px;
   max-height: 200px;
   resize: none;
   overflow: hidden;
@@ -243,12 +322,13 @@ body, html {
 .send-icon-btn {
   position: absolute;
   right: 30px;
-  top: 50%;
+  bottom: 16px;
   transform: translateY(-50%);
   border: none;
   background-color: transparent;
   cursor: pointer;
   outline: none;
+  z-index: 10;
 }
 
 .send-icon {
@@ -256,25 +336,20 @@ body, html {
   color: #7c44ab;
 }
 
-.upload-section {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  margin-top: 10px;
-  width: 100%;
-}
 
-.upload-label {
-  font-size: 18px;
-  font-weight: 500;
-  color: #2c4f27;
-}
 
 
 /* 先给气泡做定位参照 */
 .answer-bubble.chatGpt-bubble {
   position: relative;       /* 之前加过 */
   padding-bottom: 2.5rem;   /* 新加：留出约 40px 的空间给按钮 */
+  background-color: #ffffff;      /* 原来的默认背景 */
+  transition: background-color .2s ease;
+}
+
+.answer-bubble.chatGpt-bubble:hover {
+  background-color: white ;      /* 悬浮时变成纯白 */
+  background-color: rgba(255, 255, 240, 0.3);
 }
 
 /* 再绝对定位按钮到右下 */
@@ -295,5 +370,107 @@ body, html {
   background-color: #dcd8ea;
   color: #333;
 }
+
+
+/* ———————— 1. chat-messages 容器 —— 和 chat-input-wrapper 一样宽、居中 ———————— */
+.chat-panel > .chat-messages {
+  width: 100%;            /* 拉满右侧 flex 区域的剩余宽度 */
+ 
+  margin: 0 auto;         /* 水平居中 */
+  box-sizing: border-box;
+  
+  /* 如果你还需要微调它顶到上方的距离： */
+  margin-top: 40px !important; 
+}
+
+/* ———————— 2. 每条对话块 chat-block 也撑满上面这片区域 ———————— */
+.chat-panel .chat-messages .chat-block {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 24px;    /* 让问答之间有统一垂直间隔 */
+}
+
+/* ———————— 3. 问题 / 回答 气泡，都和输入框同宽并居中 ———————— */
+.chat-panel .chat-messages .question-bubble,
+.chat-panel .chat-messages .answer-bubble {
+  width: 100%;            /* 占满 chat-block 的可用宽度 */
+  max-width: none;        /* 清除原先的 80% 限制 */
+  margin: 0 auto;         /* 居中 */
+  box-sizing: border-box; /* padding/border 不会撑破宽度 */
+}
+
+/* ———————— 4. 标题和气泡之间留点距离 ———————— */
+.final-answer > strong {
+  display: block !important;
+  margin-bottom: 12px !important;
+}
+
+
+@media (max-width: 768px) {
+  .chat-panel {
+    padding: 0 12px 12px;
+  }
+
+  .question-bubble,
+  .answer-bubble {
+    border-radius: 12px; /* 圆角增大适应小屏幕 */
+  }
+
+  .send-icon-btn {
+    right: 16px;
+    bottom: 12px;
+  }
+
+  :root {
+    --msg-gap: 1rem; /* 移动端缩小为16px */
+  }
+  
+  .answer-bubble {
+    min-height: 44px; /* 移动端更紧凑 */
+  }
+}
+
+
+/* 添加时间戳 */
+.message-timestamp {
+  display: block;
+  font-size: 0.75rem;
+  color: #666;
+  margin-top: 0.5rem;
+  opacity: 0.6;
+}
+
+/* 引用按钮优化 */
+.answer-bubble.chatGpt-bubble > button {
+  background: rgba(255,255,255,0.9);
+  border: 1px solid rgba(0,0,0,0.08);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* 新增间距变量 */
+:root {
+  --msg-gap: 1.2rem; /* 统一设为19.2px */
+}
+
+/* 重构对话块结构 */
+.chat-block {
+  margin-bottom: var(--msg-gap);
+  display: flex;
+  flex-direction: column;
+  gap: var(--msg-gap); /* 内部元素统一间距 */
+}
+
+/* 为每一组“问+答”做一个卡片容器 */
+.chat-panel .chat-messages .chat-block {
+  background-color: #ffffff;          /* 卡片白色底 */
+  border-radius: 8px;                 /* 圆角 */
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1); /* 轻微阴影 */
+  padding: 1rem;                      /* 内边距，把内容往里推 */
+  margin-bottom: 1.5rem;              /* 外边距，和下一组拉开距离 */
+}
+
+
+
+
 
 

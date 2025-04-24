@@ -30,6 +30,9 @@ function App() {
   const [conversation, setConversation] = useState([]);
   const textareaRef = useRef(null);
 
+  // —— 新增：ref 给 chat-messages 容器 ——  
+  const containerRef = useRef(null);
+
   // Auto-resize the textarea every time "question" changes.
   useEffect(() => {
     if (textareaRef.current) {
@@ -37,6 +40,17 @@ function App() {
       textareaRef.current.style.height = `${textareaRef.current.scrollHeight}px`;
     }
   }, [question]);
+
+    // —— 新增：当 conversation 变更时自动滚到底部 ——  
+    useEffect(() => {
+      const el = containerRef.current;
+      if (el) {
+        // 直接瞬间滚到底部：
+        el.scrollTop = el.scrollHeight;
+        // 如果想要平滑滚动，用下面这一行代替上面那行：
+        // el.scrollTo({ top: el.scrollHeight, behavior: 'smooth' });
+      }
+    }, [conversation]);
 
   const handleQuestionChange = (event) => {
     setQuestion(event.target.value);
@@ -117,7 +131,6 @@ function App() {
     if (entry.selectedStyle === 'chatGpt') {
       return (
         <div className="answer-bubble chatGpt-bubble">
-          <span className="icon">🤖</span>
           <div>{entry.chatGptStyle}</div>
           
         </div>
@@ -125,7 +138,6 @@ function App() {
     } else if (entry.selectedStyle === 'humphrey') {
       return (
         <div className="answer-bubble humphrey-bubble">
-          <span className="icon">👔</span>
           <div>{entry.humphreyStyle}</div>
         </div>
       );
@@ -149,13 +161,13 @@ function App() {
           className="sidebar-logo"
           />
         </div>
-        <h2 className="sidebar-title">Hi Manager Chatbot</h2>
+        <h2 className="sidebar-title">Style Mimic Chatbot</h2>
       </div>
 
         <div className="sidebar-body">
           <div className="api-indicator">
             <div className="api-indicator-icon">✓</div>
-            <span>API key already provided!</span>
+            <span>API key already provided</span>
           </div>
           <a
             href="https://example.com/blog"
@@ -163,26 +175,18 @@ function App() {
             rel="noreferrer"
             className="blog-link"
           >
-            Build Humphrey Style!
+            Build Humphrey Style
           </a>
           <button className="clear-btn" onClick={clearChatHistory}>
             Clear Chat History
-          </button>
-          <div className="upload-section">
-          <label htmlFor="pdf-upload" className="upload-label">Upload PDF</label>
-              <input
-                id="pdf-upload"
-                type="file"
-                accept="application/pdf"
-                onChange={handlePdfUpload}
-              />
-        </div>
+          </button> 
         </div>
       </div>
 
       {/* Right Chat Panel */}
       <div className="chat-panel">
-        <div className="chat-messages">
+         {/* —— 这里给滚动区挂上 ref —— */}
+        <div className="chat-messages" ref={containerRef}>
           {conversation.map((entry, index) => (
             <div key={index} className="chat-block">
               <div className="question-bubble">
@@ -191,7 +195,7 @@ function App() {
               {!entry.selectedStyle && (
                 <div className="answers-group">
                   <div className="answer-bubble chatGpt-bubble">
-                    <span className="icon">🤖</span>
+                    
 
                     <div>{entry.chatGptStyle}</div>
                     {/* ←── 新增这行 */}
@@ -200,9 +204,15 @@ function App() {
                     </button>
                   </div>
                   {entry.humphreyStyle && (
-                    <div className="answer-bubble humphrey-bubble">
-                      <span className="icon">👔</span>
+                    <div className="answer-bubble chatGpt-bubble">
+                      {/* —— 同样的 “See Citations” 按钮 —— */}
                       <div>{entry.humphreyStyle}</div>
+                        <button onClick={() => alert('Citations!')}>
+                          See Citations
+                        </button>
+                        <button className="citation-btn" onClick={() => alert('Citations!')}>
+                          See Citations
+                        </button>
                     </div>
                   )}
                   <div className="choose-buttons">
@@ -222,7 +232,20 @@ function App() {
                   <strong>
                     Final Answer ({entry.selectedStyle === 'chatGpt' ? 'ChatGPT' : 'Humphrey'} Style):
                   </strong>
-                  {renderFinalAnswer(entry)}
+                  {/* 复用 ChatGPT / Humphrey 气泡样式，并插入同样的按钮 */}
+                  <div className="answer-bubble chatGpt-bubble">
+                  <div>
+                    {entry.selectedStyle === 'chatGpt'
+                      ? entry.chatGptStyle
+                      : entry.humphreyStyle}
+                  </div>
+                  <button
+                    className="citation-btn"
+                    onClick={() => alert('Citations!')}
+                  >
+                    See Citations
+                  </button>
+                </div>
                 </div>
               )}
             </div>
@@ -231,6 +254,21 @@ function App() {
         
         {/* Chat Input Area */}
         <div className="chat-input-wrapper">
+            {/* 隐藏文件输入 */}
+            <input
+            id="chat-file-upload"
+            type="file"
+            accept="application/pdf"
+            onChange={handlePdfUpload}
+            style={{ display: 'none' }}
+          />
+          {/* 左下角＋上传按钮 */}
+          <label
+            htmlFor="chat-file-upload"
+            className="chat-upload-btn"
+            data-tooltip="Upload files and more"
+          >＋</label>
+
           <textarea
             ref={textareaRef}
             className="chat-input"
@@ -244,6 +282,7 @@ function App() {
               }
             }}
           />
+
           <button className="send-icon-btn" onClick={getResponse}>
             <span className="send-icon">&#x27A4;</span>
           </button>
@@ -252,6 +291,8 @@ function App() {
     </div>
   );
 }
+
+
 
 export default App;
 
