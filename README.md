@@ -1,45 +1,80 @@
-# CS6120-Project-Group
-## Backend data pipeline
-### data_parser
-This would process the initial script into a csv that in this format:
+# CS 6120 NLP Spring 2025 Final Project
 
-|  order_index  | speaker  | text  |
-|  ----  | ----  |----  |
-| 10  | Humphrey |"What happened? Bernard?"|
-| 27 | Jim |"Well..." |
+## Features
 
-### DB_creator
-#### Vector Database
-1. character database  
-This worker creates vector database for each character that appeared in the script (this should modified if we decide that we only need 'Humphrey'), for now we can imitate all character in the script.
-2. personal database  
-A personal vector database will be created if a file is detected at the personal_data_path.
+- A chatbot that can imitate a person's style
+- Allows user to upload their own document and ask questions related to these documents
 
-#### Retrievers
-A character_retriever is created based on the character selected, if no input is received, then the defualt character is set to Humphrey. If a personal vector database is created succesfully then a personal retriever is also created.
+## Tech
 
-### Inmitation
-This contains two workers, general and personal:  
-The general worker deals with when personal data is not provided, the personal worker deals with when we received personal data, it receives one extra personal retriever compared to the general worker.
+- Backend - Python FastAPI
+- Frontend - React.js
+- LLM Orchestration - LangChain
+- Blob Storage - Google Cloud Storage
+- Vector Storage - FAISS (Facebook AI Similarity Search)
+- Deployment - Google Compute Engine
+- Containerization - Docker
+- 
+## API Design
 
-## How to run the backend
-
-```bash
-pip install -r requirements.txt
+The main functionality of this app is provided by the following two backend api
+### The imitate API
 ```
-sometimes you also need to install accelerate  
+POST: /api/imitate
 
-To run the backend:  
-```bash
-python3 main.py
-```
-
-When the backend is running, you can use POSTMAN to send a request with http://localhost:8000/api/imitate/  
-The format of the request could be something like this:  
+body:
 {
-    "text": "What should I do on Monday?",
-    "character": "Humphrey",
-    "api_key": your_genmini_api_key (gemini_2.0_flash)
+    "text": "This is your user query",
+    "character": "This is the character that you want the chatbot to imitate"
 }
+```
+
+### The file upload API
+In order to upload to the Cloud storage, the app needs to obtain a signed url for upload.
+```
+POST: /api/generate-upload-url
+
+body:
+{
+    "filename": "the_name_of_your_file.pdf",
+}
+```
 
 
+
+## Repository Structure
+To view the code deployed and associated configuration files, please refer to the `deploy` branch.
+
+## How to run backend 
+We have provided `Dockerfile` for running the backend
+
+To build docker image
+```sh
+docker build -t fastapi-backend . 
+```
+
+The requirement is that you have a signed key for uploading to Google Cloud Storage. Assume you store the key at root directory:
+To start the container at port 8000:
+```sh
+docker run -d \                                                             
+  -p 8000:8000 \
+  -v $(pwd)/key.json:/app/key.json \
+  -e GOOGLE_APPLICATION_CREDENTIALS=/app/key.json \
+  --name fastapi-backend \
+  fastapi-backend
+```
+
+
+####  How to run FrontEnd 
+We have provided `Dockerfile` for running the frontend
+
+To build docker image
+```sh
+docker build -t react-frontend .   
+```
+
+To start the frontend 
+```sh
+docker run -d -p 80:80 --name react-frontend react-frontend
+```
+You should be able to view this app on `http://localhost`
