@@ -14,7 +14,7 @@
 - Vector Storage - FAISS (Facebook AI Similarity Search)
 - Deployment - Google Compute Engine
 - Containerization - Docker
-- 
+
 ## API Design
 
 The main functionality of this app is provided by the following two backend api
